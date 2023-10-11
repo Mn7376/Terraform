@@ -10,7 +10,7 @@ resource "aws_instance" "example" {
    ami           = "ami-03a6eaae9938c858c"
    instance_type = "t2.micro"
 
-tags {
+tags = {
   Name = "New-Server"
 }
 }
