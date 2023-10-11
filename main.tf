@@ -12,7 +12,8 @@ resource "aws_instance" "example" {
 
 tags {
   Name = "New-Server"
-}}
+}
+}
 
 
 output "private_ip"{   
